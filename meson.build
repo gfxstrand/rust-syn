@@ -12,6 +12,7 @@ rc = meson.get_compiler('rust')
 rust_args = [
   '--cfg', 'feature="default"',
   '--cfg', 'feature="derive"',
+  '--cfg', 'feature="parsing"',
   '--cfg', 'feature="printing"',
   '--cfg', 'feature="clone-impls"',
   '--cfg', 'feature="proc-macro"',
