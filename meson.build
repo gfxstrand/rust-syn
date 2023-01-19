@@ -36,7 +36,7 @@ pm2 = subproject('proc-macro2').get_variable('lib')
 
 
 lib = static_library(
-  'sync',
+  'syn',
   'src/lib.rs',
   rust_args : rust_args,
   link_with : [u_ind, quote, pm2],
