@@ -42,3 +42,5 @@ lib = static_library(
   link_with : [u_ind, quote, pm2],
   rust_crate_type : 'rlib'
 )
+
+dep_syn = declare_dependency(link_with : lib)
