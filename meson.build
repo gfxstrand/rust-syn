@@ -1,7 +1,7 @@
 project(
   'syn',
   'rust',
-  version : '1.0.107',
+  version : '2.0.15',
   license :'MIT OR Apache-2.0',
   default_options : ['rust_std=2018'],
 )
