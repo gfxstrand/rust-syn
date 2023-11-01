@@ -1,4 +1,4 @@
 [wrap-git]
 url = https://github.com/gfxstrand/rust-proc-macro2
-revision = meson/1.0.56
+revision = meson/1.0.56-native
 depth = 1

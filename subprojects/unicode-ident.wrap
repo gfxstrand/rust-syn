@@ -1,4 +1,4 @@
 [wrap-git]
-url = https://github.com/dcbaker/unicode-ident
-revision = meson/1.0.6
+url = https://github.com/gfxstrand/rust-unicode-ident
+revision = meson/1.0.6-native
 depth = 1

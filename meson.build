@@ -3,7 +3,7 @@ project(
   'rust',
   version : '2.0.15',
   license :'MIT OR Apache-2.0',
-  default_options : ['rust_std=2018'],
+  default_options : ['rust_std=2018', 'build.rust_std=2018'],
 )
 
 rc = meson.get_compiler('rust')
@@ -41,7 +41,8 @@ lib = static_library(
   'src/lib.rs',
   rust_args : rust_args,
   link_with : [u_ind, quote, pm2],
-  rust_crate_type : 'rlib'
+  rust_crate_type : 'rlib',
+  native : true,
 )
 
 dep_syn = declare_dependency(
